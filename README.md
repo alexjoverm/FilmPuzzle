@@ -1,6 +1,6 @@
-#Videopuzzle
+#FilmPuzzle
 
-[Download VideoPuzzle from AppStore](https://itunes.apple.com/es/app/id1003750928)
+[Download FilmPuzzle from AppStore](https://itunes.apple.com/es/app/id1003750928)
 
 You love puzzling games, but you are tired about composing pictures, which keep always the same? 
 
