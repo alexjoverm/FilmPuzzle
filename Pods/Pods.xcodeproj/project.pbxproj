@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		275BD52798166AF5BFF7D226 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC49331D3D721D8C6E599EC /* Foundation.framework */; };
+		2A5E4E22FAC42D6EA94F9106 /* Pods-Videopuzzle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 497439F971A514B234C92FC5 /* Pods-Videopuzzle-dummy.m */; };
+		2DB27C24EB64FEFDEBDAD4DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29BC0C0A38C080D36A39F05B /* UIKit.framework */; };
+		58C02C3DA28A85AE5DA806BC /* Pods-Videopuzzle-SwiftSpinner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDAFDABC48644F74BE3ECF85 /* Pods-Videopuzzle-SwiftSpinner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A470D1B0C6F0DA0520C8047D /* Pods-Videopuzzle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC639771ADF8EA579D19A784 /* Pods-Videopuzzle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A96315D7E244299874ABF673 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC49331D3D721D8C6E599EC /* Foundation.framework */; };
+		FDDCCDAFA0C6AA41692DA842 /* Pods-Videopuzzle-SwiftSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 175982F16E2457EE23038578 /* Pods-Videopuzzle-SwiftSpinner-dummy.m */; };
+		FE88DC2C5FB03D891001B2F4 /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F3351C6A1A1E9AAA676AF /* SwiftSpinner.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BC9A9796082A13D8099E6F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 138196606A340EA453606822 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6282C6843C7B6D23408DEFB7;
+			remoteInfo = "Pods-Videopuzzle-SwiftSpinner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		084CE2E5343B23E22286C10F /* Pods-Videopuzzle-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Videopuzzle-environment.h"; sourceTree = "<group>"; };
+		175982F16E2457EE23038578 /* Pods-Videopuzzle-SwiftSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Videopuzzle-SwiftSpinner-dummy.m"; sourceTree = "<group>"; };
+		1BB3B32743370D9CA24F6B6F /* Pods-Videopuzzle-SwiftSpinner-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Videopuzzle-SwiftSpinner-Private.xcconfig"; sourceTree = "<group>"; };
+		1D01E96F78E10FCBB4E72A2F /* Pods-Videopuzzle-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Videopuzzle-frameworks.sh"; sourceTree = "<group>"; };
+		1F3AC32EA0CC1517A3073378 /* Pods-Videopuzzle-SwiftSpinner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Videopuzzle-SwiftSpinner.modulemap"; sourceTree = "<group>"; };
+		29BC0C0A38C080D36A39F05B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2DFB290BD244F74D53CF068C /* Pods-Videopuzzle-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Videopuzzle-acknowledgements.plist"; sourceTree = "<group>"; };
+		3EC49331D3D721D8C6E599EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4093B586395B3470CC5A5520 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		497439F971A514B234C92FC5 /* Pods-Videopuzzle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Videopuzzle-dummy.m"; sourceTree = "<group>"; };
+		619F3351C6A1A1E9AAA676AF /* SwiftSpinner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSpinner.swift; path = SwiftSpinner/SwiftSpinner.swift; sourceTree = "<group>"; };
+		658CE7CFCA21468FE74297A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CC104F8E39A4A5F570067D6 /* Pods-Videopuzzle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Videopuzzle.release.xcconfig"; sourceTree = "<group>"; };
+		7099B92A27ED94AA9F9873B4 /* Pods_Videopuzzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Videopuzzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D0D0517C5FB8F28E7DF1FD /* SwiftSpinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftSpinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CA61222F51F458CD567F4B6 /* Pods-Videopuzzle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Videopuzzle.modulemap"; sourceTree = "<group>"; };
+		976D50CC5231AB410ADB78F4 /* Pods-Videopuzzle-SwiftSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Videopuzzle-SwiftSpinner.xcconfig"; sourceTree = "<group>"; };
+		A25AB79B108116987DF94389 /* Pods-Videopuzzle-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Videopuzzle-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AD8F8FA740D6EC356C354404 /* Pods-Videopuzzle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Videopuzzle.debug.xcconfig"; sourceTree = "<group>"; };
+		DADD31C838A79DE6EEFF7ABE /* Pods-Videopuzzle-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Videopuzzle-resources.sh"; sourceTree = "<group>"; };
+		EDAFDABC48644F74BE3ECF85 /* Pods-Videopuzzle-SwiftSpinner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Videopuzzle-SwiftSpinner-umbrella.h"; sourceTree = "<group>"; };
+		F12F7551BE48305A44F5F836 /* Pods-Videopuzzle-SwiftSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Videopuzzle-SwiftSpinner-prefix.pch"; sourceTree = "<group>"; };
+		F25C7E908DECB604BDE2AC9E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC639771ADF8EA579D19A784 /* Pods-Videopuzzle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Videopuzzle-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBA296C3467F84C573F33E2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275BD52798166AF5BFF7D226 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2AF78CAA3428F53138F3200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96315D7E244299874ABF673 /* Foundation.framework in Frameworks */,
+				2DB27C24EB64FEFDEBDAD4DA /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E36E9DE5702B80FC0725997 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7099B92A27ED94AA9F9873B4 /* Pods_Videopuzzle.framework */,
+				78D0D0517C5FB8F28E7DF1FD /* SwiftSpinner.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BAA4B4B6C2C7592A1D19CEF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				658CE7CFCA21468FE74297A2 /* Info.plist */,
+				1F3AC32EA0CC1517A3073378 /* Pods-Videopuzzle-SwiftSpinner.modulemap */,
+				976D50CC5231AB410ADB78F4 /* Pods-Videopuzzle-SwiftSpinner.xcconfig */,
+				1BB3B32743370D9CA24F6B6F /* Pods-Videopuzzle-SwiftSpinner-Private.xcconfig */,
+				175982F16E2457EE23038578 /* Pods-Videopuzzle-SwiftSpinner-dummy.m */,
+				F12F7551BE48305A44F5F836 /* Pods-Videopuzzle-SwiftSpinner-prefix.pch */,
+				EDAFDABC48644F74BE3ECF85 /* Pods-Videopuzzle-SwiftSpinner-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Videopuzzle-SwiftSpinner";
+			sourceTree = "<group>";
+		};
+		3115B5462324666B9164D51A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8809BD624CFC5276BF29F8D2 /* Pods-Videopuzzle */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7A076B58E91518DDD4D203F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC4E19A5B51BE387B29D24C3 /* SwiftSpinner */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7F1E7F362CFE63E5977D66DD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3EC49331D3D721D8C6E599EC /* Foundation.framework */,
+				29BC0C0A38C080D36A39F05B /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8809BD624CFC5276BF29F8D2 /* Pods-Videopuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				F25C7E908DECB604BDE2AC9E /* Info.plist */,
+				8CA61222F51F458CD567F4B6 /* Pods-Videopuzzle.modulemap */,
+				A25AB79B108116987DF94389 /* Pods-Videopuzzle-acknowledgements.markdown */,
+				2DFB290BD244F74D53CF068C /* Pods-Videopuzzle-acknowledgements.plist */,
+				497439F971A514B234C92FC5 /* Pods-Videopuzzle-dummy.m */,
+				084CE2E5343B23E22286C10F /* Pods-Videopuzzle-environment.h */,
+				1D01E96F78E10FCBB4E72A2F /* Pods-Videopuzzle-frameworks.sh */,
+				DADD31C838A79DE6EEFF7ABE /* Pods-Videopuzzle-resources.sh */,
+				FC639771ADF8EA579D19A784 /* Pods-Videopuzzle-umbrella.h */,
+				AD8F8FA740D6EC356C354404 /* Pods-Videopuzzle.debug.xcconfig */,
+				6CC104F8E39A4A5F570067D6 /* Pods-Videopuzzle.release.xcconfig */,
+			);
+			name = "Pods-Videopuzzle";
+			path = "Target Support Files/Pods-Videopuzzle";
+			sourceTree = "<group>";
+		};
+		8FEE8DDB15E33EFFF2FAF2BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F1E7F362CFE63E5977D66DD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC4E19A5B51BE387B29D24C3 /* SwiftSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				619F3351C6A1A1E9AAA676AF /* SwiftSpinner.swift */,
+				2BAA4B4B6C2C7592A1D19CEF /* Support Files */,
+			);
+			path = SwiftSpinner;
+			sourceTree = "<group>";
+		};
+		D391348F79649D793BA83BAF = {
+			isa = PBXGroup;
+			children = (
+				4093B586395B3470CC5A5520 /* Podfile */,
+				8FEE8DDB15E33EFFF2FAF2BA /* Frameworks */,
+				7A076B58E91518DDD4D203F3 /* Pods */,
+				0E36E9DE5702B80FC0725997 /* Products */,
+				3115B5462324666B9164D51A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		46DD364BEF093BA006D7B1B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A470D1B0C6F0DA0520C8047D /* Pods-Videopuzzle-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D84F638EFD73768D6A48382 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C02C3DA28A85AE5DA806BC /* Pods-Videopuzzle-SwiftSpinner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6282C6843C7B6D23408DEFB7 /* Pods-Videopuzzle-SwiftSpinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF816A738572767FC6621B5D /* Build configuration list for PBXNativeTarget "Pods-Videopuzzle-SwiftSpinner" */;
+			buildPhases = (
+				3B6091989AA3C63A0E6813C7 /* Sources */,
+				F2AF78CAA3428F53138F3200 /* Frameworks */,
+				4D84F638EFD73768D6A48382 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Videopuzzle-SwiftSpinner";
+			productName = "Pods-Videopuzzle-SwiftSpinner";
+			productReference = 78D0D0517C5FB8F28E7DF1FD /* SwiftSpinner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CB4B65A740F7C42E9E74630C /* Pods-Videopuzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CB63458F847B2315F390159 /* Build configuration list for PBXNativeTarget "Pods-Videopuzzle" */;
+			buildPhases = (
+				E018EA67C25B7BB69A618B34 /* Sources */,
+				DBA296C3467F84C573F33E2D /* Frameworks */,
+				46DD364BEF093BA006D7B1B4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3D8D8048A7900D9355A538F /* PBXTargetDependency */,
+			);
+			name = "Pods-Videopuzzle";
+			productName = "Pods-Videopuzzle";
+			productReference = 7099B92A27ED94AA9F9873B4 /* Pods_Videopuzzle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		138196606A340EA453606822 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = BA6AA1E57692AD50385880E1 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D391348F79649D793BA83BAF;
+			productRefGroup = 0E36E9DE5702B80FC0725997 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB4B65A740F7C42E9E74630C /* Pods-Videopuzzle */,
+				6282C6843C7B6D23408DEFB7 /* Pods-Videopuzzle-SwiftSpinner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B6091989AA3C63A0E6813C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDCCDAFA0C6AA41692DA842 /* Pods-Videopuzzle-SwiftSpinner-dummy.m in Sources */,
+				FE88DC2C5FB03D891001B2F4 /* SwiftSpinner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E018EA67C25B7BB69A618B34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A5E4E22FAC42D6EA94F9106 /* Pods-Videopuzzle-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3D8D8048A7900D9355A538F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Videopuzzle-SwiftSpinner";
+			target = 6282C6843C7B6D23408DEFB7 /* Pods-Videopuzzle-SwiftSpinner */;
+			targetProxy = 7BC9A9796082A13D8099E6F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02DD0C7AA01028CFEC1EF68D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BB3B32743370D9CA24F6B6F /* Pods-Videopuzzle-SwiftSpinner-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Videopuzzle-SwiftSpinner/Pods-Videopuzzle-SwiftSpinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Videopuzzle-SwiftSpinner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Videopuzzle-SwiftSpinner/Pods-Videopuzzle-SwiftSpinner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2212CB87CAB45B0E77B27544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		24A63AFBA64B0DDA9F82CCFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BB3B32743370D9CA24F6B6F /* Pods-Videopuzzle-SwiftSpinner-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Videopuzzle-SwiftSpinner/Pods-Videopuzzle-SwiftSpinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Videopuzzle-SwiftSpinner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Videopuzzle-SwiftSpinner/Pods-Videopuzzle-SwiftSpinner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B3163E01F5A0DC3C021F39C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E9309EE399AE9DD5BEC1F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD8F8FA740D6EC356C354404 /* Pods-Videopuzzle.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Videopuzzle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Videopuzzle/Pods-Videopuzzle.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Videopuzzle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9ACD74BFFEFBAAA57C6D84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CC104F8E39A4A5F570067D6 /* Pods-Videopuzzle.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Videopuzzle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Videopuzzle/Pods-Videopuzzle.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Videopuzzle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CB63458F847B2315F390159 /* Build configuration list for PBXNativeTarget "Pods-Videopuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9309EE399AE9DD5BEC1F30 /* Debug */,
+				D9ACD74BFFEFBAAA57C6D84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6AA1E57692AD50385880E1 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2212CB87CAB45B0E77B27544 /* Debug */,
+				8B3163E01F5A0DC3C021F39C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF816A738572767FC6621B5D /* Build configuration list for PBXNativeTarget "Pods-Videopuzzle-SwiftSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02DD0C7AA01028CFEC1EF68D /* Debug */,
+				24A63AFBA64B0DDA9F82CCFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 138196606A340EA453606822 /* Project object */;
+}
